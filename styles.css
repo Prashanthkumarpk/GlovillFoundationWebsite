@@ -4,7 +4,12 @@
 nav div .nav-link:hover{
   background-color: #ffa500;
 }
+
 nav div .dropdown-item:hover{
   background-color: green;
   color: white;
+}
+
+.navcolour{
+  background-color: #34ad54;
 }
