@@ -10,10 +10,18 @@ nav div .nav-link:hover{
 }
 
 nav div .dropdown-item:hover{
-  background-color: green;
+  background-color: #34AD54;
   color: white;
 }
 
 .navcolour{
   background-color: #34ad54;
 }
+
+#NavLogo{
+  width: 161px;
+  height: 58px;
+}
+
+
+
