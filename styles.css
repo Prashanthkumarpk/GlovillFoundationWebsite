@@ -113,3 +113,11 @@ nav div .dropdown-item:hover{
 .service-item:hover h4 {
   color: var(--light);
 }
+
+.Bag-secondary {
+  background-color: #f93 !important;
+}
+
+.Text-secondary {
+  color: #f93 !important;
+}
