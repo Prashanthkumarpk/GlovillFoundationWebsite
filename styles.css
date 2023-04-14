@@ -97,10 +97,19 @@ nav div .dropdown-item:hover{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #263A4F;
+    color: #001f40;
 }
 
 .service-item:hover {
   color: var(--light);
   background: var(--primary) !important;
+}
+
+
+.service-item:hover h4 {
+  transition: .5s;
+}
+
+.service-item:hover h4 {
+  color: var(--light);
 }
