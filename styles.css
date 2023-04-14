@@ -50,7 +50,7 @@ nav div .dropdown-item:hover{
     transition: .5s;
 }
 
-/* carousel */
+/* carousel styles */
 
 .c-item{
   height: 56vw;
@@ -86,6 +86,7 @@ nav div .dropdown-item:hover{
     transition: .5s;
 }
 
+/* headings */
 .heading{
   color: var(--primary);
   font-family: 'Roboto', sans-serif;
@@ -100,6 +101,7 @@ nav div .dropdown-item:hover{
     color: #001f40;
 }
 
+/* Objectives effect */
 .service-item:hover {
   color: var(--light);
   background: var(--primary) !important;
@@ -114,10 +116,41 @@ nav div .dropdown-item:hover{
   color: var(--light);
 }
 
+/* Founder card icons */
 .Bag-secondary {
   background-color: #f93 !important;
 }
 
 .Text-secondary {
   color: #f93 !important;
+}
+
+/* Areas of work  */
+
+.blog-item img {
+  transition: .5s;
+}
+
+.blog-item:hover img {
+  transform: scale(1.2);
+}
+
+.blog-overlay {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+  z-index: 1;
+}
+
+.aText{
+  color: #34AD54;
+  text-decoration: none;
 }
