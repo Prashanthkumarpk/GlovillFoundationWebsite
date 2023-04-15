@@ -75,7 +75,7 @@ nav div .dropdown-item:hover{
 
 .gallery{
 
-  margin-top: 14vh;
+  margin-top: 16vh;
 
 }
 
@@ -160,4 +160,19 @@ nav div .dropdown-item:hover{
 .aText{
   color: #34AD54;
   text-decoration: none;
+}
+
+
+
+/* fixing white space using mq */
+
+@media  (min-width:1024px) {
+ 
+  .gallery{
+
+    margin-top: 0vh;
+  
+  }
+
+
 }
