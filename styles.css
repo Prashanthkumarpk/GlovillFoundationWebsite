@@ -12,6 +12,9 @@ body{
   height: 100vh;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --primary: #34AD54;
   --secondary: #FF9933;
