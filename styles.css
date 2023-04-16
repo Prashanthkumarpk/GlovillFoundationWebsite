@@ -1,65 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@500;700&display=swap");
 
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
+body {
   height: 100vh;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 :root {
-  --primary: #34AD54;
-  --secondary: #FF9933;
-  --light: #F6FFF2;
-  --dark: #263A4F;
+  --primary: #34ad54;
+  --secondary: #ff9933;
+  --light: #f6fff2;
+  --dark: #263a4f;
 }
 
-
-#wrapper{
+#wrapper {
   overflow-y: auto;
   overflow-x: hidden;
   padding: 7vw;
 }
 
 /* styling the navbar */
-nav div .nav-link:hover{
+nav div .nav-link:hover {
   background-color: #ffa500;
 }
 
-nav div .dropdown-item:hover{
-  background-color: #34AD54;
+nav div .dropdown-item:hover {
+  background-color: #34ad54;
   color: white;
 }
 
-.navcolour{
+.navcolour {
   background-color: #34ad54;
 }
 
-#NavLogo{
+#NavLogo {
   width: 161px;
   height: 58px;
 }
 
-.nav-link{
+.nav-link {
   padding: 30px 15px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    transition: .5s;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
-/* carousel styles */
 
-.c-item{
+/* carousel styles */
+.c-item {
   height: 56vw;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -68,44 +65,41 @@ nav div .dropdown-item:hover{
   background-size: cover;
 }
 
-.c-img{
+.c-img {
   height: 100%;
   object-fit: cover;
 }
 
-.gallery{
-
+.gallery {
   margin-top: 14vh;
-
 }
 
 /* this utility class is for icon */
-.Grain{
-  
+.Grain {
   /* color: rgb(255,153,51); */
   filter: saturate(100%);
   color: linear-gradient(var(--primary), var(--secondary));
   /* width: 42px;
   height: 50px; */
   background-image: linear-gradient(var(--primary), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .5s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
 }
 
 /* headings */
-.heading{
+.heading {
   color: var(--primary);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.secHeading{
+.secHeading {
   margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #001f40;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #001f40;
 }
 
 /* Objectives effect */
@@ -114,14 +108,14 @@ nav div .dropdown-item:hover{
   background: var(--primary) !important;
 }
 
-
 .service-item:hover h4 {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover h4 {
   color: var(--light);
 }
+
 
 /* Founder card icons */
 .Bag-secondary {
@@ -132,10 +126,10 @@ nav div .dropdown-item:hover{
   color: #f93 !important;
 }
 
-/* Areas of work  */
 
+/* Areas of work  */
 .blog-item img {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .blog-item:hover img {
@@ -157,34 +151,25 @@ nav div .dropdown-item:hover{
   z-index: 1;
 }
 
-.aText{
-  color: #34AD54;
+.aText {
+  color: #34ad54;
   text-decoration: none;
 }
 
-
-
 /* fixing white space using mq */
-
-@media  (min-width:1024px) {
- 
-  .gallery{
-
+@media (min-width: 1024px) {
+  .gallery {
     margin-top: 0vh;
-  
   }
-
-
 }
-
 
 /* Nav toggle issue sorted  */
 @media (max-width: 991.98px) {
   .navbar-collapse {
-      display: none; /* hide navbar menu by default */
+    display: none; /* hide navbar menu by default */
   }
 
   .navbar-toggler[aria-expanded="true"] + .navbar-collapse {
-      display: block; /* show navbar menu when toggler is expanded */
+    display: block; /* show navbar menu when toggler is expanded */
   }
 }
