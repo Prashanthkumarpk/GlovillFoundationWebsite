@@ -177,3 +177,14 @@ nav div .dropdown-item:hover{
 
 }
 
+
+/* Nav toggle issue sorted  */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+      display: none; /* hide navbar menu by default */
+  }
+
+  .navbar-toggler[aria-expanded="true"] + .navbar-collapse {
+      display: block; /* show navbar menu when toggler is expanded */
+  }
+}
